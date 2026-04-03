@@ -74,7 +74,7 @@ export default function TeraPeek() {
     }
     if (id && id !== trimmed) setVideoId(id);
 
-    const apiUrl = `https://teracoke.vercel.app/api?url=https://terabox.com/s/${encodeURIComponent(
+    const apiUrl = `https://corebox.vercel.app/api?url=https://terabox.com/s/${encodeURIComponent(
       id
     )}`;
 
